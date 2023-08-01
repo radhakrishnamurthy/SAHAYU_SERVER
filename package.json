@@ -1,0 +1,27 @@
+{
+  "name": "sahayu_server",
+  "version": "1.0.0",
+  "description": "Initial prototype of SAHAYU",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.1",
+    "knex": "^2.4.2",
+    "momentjs": "^2.0.0",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.22",
+    "objection": "^3.1.1",
+    "pg": "^8.11.1",
+    "underscore": "^1.13.6"
+  }
+}
